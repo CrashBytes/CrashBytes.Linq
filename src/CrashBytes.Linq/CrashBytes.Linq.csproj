@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CrashBytes.Linq</RootNamespace>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>CrashBytes.Linq</PackageId>
+    <Authors>CrashBytes</Authors>
+    <Company>CrashBytes</Company>
+    <Copyright>Copyright (c) 2026 CrashBytes</Copyright>
+    <Description>Modern LINQ extensions for .NET 6+ — FullOuterJoin, WhereIf, Shuffle, Pairwise, Scan, Flatten, and more.</Description>
+    <PackageTags>linq;extensions;join;shuffle;scan;flatten;utility</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CrashBytes/CrashBytes.Linq</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Linq</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Symbol packages for source debugging -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="5.*" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
